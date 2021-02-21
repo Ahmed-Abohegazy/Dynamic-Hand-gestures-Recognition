@@ -17,6 +17,9 @@ Spyder Ide
 -resultfolder : after traing the code genrates txt file contains information about every epoch in the traing proccess
 -saved_modelfolder : usign callbacks ,best models wiehgts are saved into this folder while training 
 
+###the subset of the 20 bn jester data set link in oder to rain the model 
+https://drive.google.com/drive/folders/1D47fhHbNIHcgcPAhqo9z-MfdNytvVAEV?usp=sharing
+
 
 ###how to run the code to control Spotify :
 -make sure Spotify app is already downloaded if not download it using windows 10 Microsoft store 
