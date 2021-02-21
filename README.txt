@@ -1,3 +1,14 @@
+Computer become a necessity and critical part of our daily life. Human and computer interaction is carried out through
+traditional input tools such as the mouse, keyboard and other conventional, Hand gestures is going to be a valuable tool for HCI to enhance usability by establishing new methods for the interaction process.
+Also, in the field of automotive user interfaces, touchless hand gesture recognition systems are becoming relevant, as they improve safety and comfort.
+The objective is to develop a real-time system that takes an input from a camera then predicts the gesture class(static, dynamic), By using the power of CNN to develop a model and train it on a dataset of human gestures and increasing the performance to reach a high accuracy without neglecting the performance.
+Instead of analyzing the hand shape separately in each image, we can analyze the hand movement in time, which means
+analyzing multiple images at once. If you lift two fingers, it will be identified to the machine but the 3D CNN + LSTM gives us
+more than that, it would be able to sense whether we push the two fingers left or right or, which also lets us observe the motion and the hand gesture
+
+
+
+
 IMPORTANT NOTES 
 ### The technologies used:
 Python 3.7  
