@@ -48,6 +48,6 @@ usign callbacks ,best models wiehgts are saved into this folder while training
 ![Accuracy](https://drive.google.com/file/d/110PTw-iwTl9W3hGngn1TCjaflCM3uF6d/view?usp=sharing)
 ![Loss](https://drive.google.com/file/d/1eBqF7B8m0ifUb-xwEMDN07whKCHkcWaG/view?usp=sharing)
 
- 
+ ![loss](learning%20curve%202.png)
 
  
