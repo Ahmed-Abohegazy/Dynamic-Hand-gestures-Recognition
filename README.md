@@ -39,7 +39,14 @@ usign callbacks ,best models wiehgts are saved into this folder while training
 - open Spotify (note make sure Spotify is selected and in full-screen mode)
 -  make sure you click on the area of spotify controlers  on the botthom
 
+## Experiment  results
+•The model is trained on training sample contains 1800 video clips for 5 different gestures.
+•Model is a combination network between 3D CNN and LSTM
+•The gestures are combination of 2 static gestures and 3 dynamic gesture.
+•The model achieved 98% on the training accuracy and 90% on the validation accuracy.
 
+![Accuracy](https://drive.google.com/file/d/110PTw-iwTl9W3hGngn1TCjaflCM3uF6d/view?usp=sharing)
+![Loss](https://drive.google.com/file/d/1eBqF7B8m0ifUb-xwEMDN07whKCHkcWaG/view?usp=sharing)
 
  
 
