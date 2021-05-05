@@ -45,8 +45,7 @@ usign callbacks ,best models wiehgts are saved into this folder while training
 •The gestures are combination of 2 static gestures and 3 dynamic gesture.
 •The model achieved 98% on the training accuracy and 90% on the validation accuracy.
 
-![Accuracy](https://drive.google.com/file/d/110PTw-iwTl9W3hGngn1TCjaflCM3uF6d/view?usp=sharing)
-![Loss](https://drive.google.com/file/d/1eBqF7B8m0ifUb-xwEMDN07whKCHkcWaG/view?usp=sharing)
+
 
  ![loss](learning%20curve%202.png)
 
