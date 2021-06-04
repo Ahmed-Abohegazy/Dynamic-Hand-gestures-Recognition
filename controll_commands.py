@@ -4,22 +4,22 @@ from  pynput import mouse, keyboard
 from pynput.keyboard import Key
 
 
-#please not that the following contolls are adjusted to work wiht spotify key shortcuts 
+#please note that the following contolls are adjusted to work with spotify key shortcuts 
 keyboards= keyboard.Controller()
 mouses = mouse.Controller()
 def index_threshhold(conf, index,pre):
     if index ==1:
-        #print(1)
+       
         print(conf[0])
         if pre == 1:
             return(index)
         else:
             return(5)
     elif index == 0:
-        #print(2)
+        
         print(conf[0])
         if pre==0:
-            #this is backward
+            
             return(index)
         else:
             return(5)
@@ -27,19 +27,19 @@ def index_threshhold(conf, index,pre):
         #print(2)
         print(conf[0])
         if conf[0] >0.85:
-            #print("this is stop")
+            
             return(index)
         else:
             return(5)
     elif index==3:
-        #print(4)
+
         print(conf[0])
         if conf[0] >0.95:
             return(index)
         else:
             return(5)
     elif index ==4:
-        #print(4)
+      
         print(conf[0])
         if conf[0] >0.96:
             return(index)
@@ -61,8 +61,16 @@ def controll_PC(index):
         keyboards.press(Key.down)
         keyboards.release(Key.ctrl_r)
         keyboards.release(Key.down)
+        keyboards.press(Key.ctrl_r)
+        keyboards.press(Key.down)
+        keyboards.release(Key.ctrl_r)
+        keyboards.release(Key.down)
         return('volume down')
     elif index ==1:
+        keyboards.press(Key.ctrl_r)
+        keyboards.press(Key.up)
+        keyboards.release(Key.ctrl_r)
+        keyboards.release(Key.up)
         keyboards.press(Key.ctrl_r)
         keyboards.press(Key.up)
         keyboards.release(Key.ctrl_r)
@@ -74,13 +82,14 @@ def controll_PC(index):
         return("play/stop")
     elif index ==3:
         keyboards.press(Key.ctrl_r)
-        keyboards.press(Key.left)
-        keyboards.release(Key.ctrl_r)
-        keyboards.release(Key.left)
-        return('previous')
-    elif index ==4:
-        keyboards.press(Key.ctrl_r)
         keyboards.press(Key.right)
         keyboards.release(Key.ctrl_r)
         keyboards.release(Key.right)
+      
+        return('previous')
+    elif index ==4:
+        keyboards.press(Key.ctrl_r)
+        keyboards.press(Key.left)
+        keyboards.release(Key.ctrl_r)
+        keyboards.release(Key.left)
         return('next')
